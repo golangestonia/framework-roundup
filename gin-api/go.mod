@@ -1,4 +1,4 @@
-module github.com/golangestonia/framework-roundup/gin
+module github.com/golangestonia/framework-roundup/gin-api
 
 go 1.18
 
