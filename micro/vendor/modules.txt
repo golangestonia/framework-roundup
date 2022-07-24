@@ -1,0 +1,370 @@
+# github.com/bitly/go-simplejson v0.5.0
+## explicit
+github.com/bitly/go-simplejson
+# github.com/cpuguy83/go-md2man/v2 v2.0.0
+## explicit; go 1.12
+github.com/cpuguy83/go-md2man/v2/md2man
+# github.com/davecgh/go-spew v1.1.1
+## explicit
+github.com/davecgh/go-spew/spew
+# github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f
+## explicit
+github.com/desertbit/timer
+# github.com/evanphx/json-patch/v5 v5.0.0
+## explicit; go 1.12
+github.com/evanphx/json-patch/v5
+# github.com/go-acme/lego/v3 v3.4.0
+## explicit; go 1.13
+github.com/go-acme/lego/v3/acme
+github.com/go-acme/lego/v3/challenge
+# github.com/golang-jwt/jwt v0.0.0-20210529014511-0f726ea0e725
+## explicit; go 1.14
+github.com/golang-jwt/jwt
+# github.com/golang/protobuf v1.5.2
+## explicit; go 1.9
+github.com/golang/protobuf/jsonpb
+github.com/golang/protobuf/proto
+github.com/golang/protobuf/ptypes
+github.com/golang/protobuf/ptypes/any
+github.com/golang/protobuf/ptypes/duration
+github.com/golang/protobuf/ptypes/timestamp
+# github.com/google/uuid v1.1.2
+## explicit
+github.com/google/uuid
+# github.com/gorilla/websocket v1.4.2
+## explicit; go 1.12
+github.com/gorilla/websocket
+# github.com/hashicorp/go-version v1.2.1
+## explicit
+github.com/hashicorp/go-version
+# github.com/hpcloud/tail v1.0.0
+## explicit
+github.com/hpcloud/tail
+github.com/hpcloud/tail/ratelimiter
+github.com/hpcloud/tail/util
+github.com/hpcloud/tail/watch
+github.com/hpcloud/tail/winfile
+# github.com/improbable-eng/grpc-web v0.13.0
+## explicit
+github.com/improbable-eng/grpc-web/go/grpcweb
+# github.com/micro/micro/v3 v3.11.0
+## explicit; go 1.16
+github.com/micro/micro/v3/client/cli/namespace
+github.com/micro/micro/v3/client/cli/token
+github.com/micro/micro/v3/client/cli/util
+github.com/micro/micro/v3/cmd
+github.com/micro/micro/v3/cmd/usage
+github.com/micro/micro/v3/cmd/usage/proto
+github.com/micro/micro/v3/plugin
+github.com/micro/micro/v3/profile
+github.com/micro/micro/v3/proto/alert
+github.com/micro/micro/v3/proto/auth
+github.com/micro/micro/v3/proto/broker
+github.com/micro/micro/v3/proto/config
+github.com/micro/micro/v3/proto/debug
+github.com/micro/micro/v3/proto/errors
+github.com/micro/micro/v3/proto/events
+github.com/micro/micro/v3/proto/registry
+github.com/micro/micro/v3/proto/router
+github.com/micro/micro/v3/proto/runtime
+github.com/micro/micro/v3/proto/store
+github.com/micro/micro/v3/proto/transport
+github.com/micro/micro/v3/service
+github.com/micro/micro/v3/service/api
+github.com/micro/micro/v3/service/api/resolver
+github.com/micro/micro/v3/service/auth
+github.com/micro/micro/v3/service/auth/client
+github.com/micro/micro/v3/service/auth/jwt
+github.com/micro/micro/v3/service/auth/noop
+github.com/micro/micro/v3/service/broker
+github.com/micro/micro/v3/service/broker/client
+github.com/micro/micro/v3/service/broker/memory
+github.com/micro/micro/v3/service/build
+github.com/micro/micro/v3/service/build/golang
+github.com/micro/micro/v3/service/build/util/tar
+github.com/micro/micro/v3/service/build/util/zip
+github.com/micro/micro/v3/service/client
+github.com/micro/micro/v3/service/client/grpc
+github.com/micro/micro/v3/service/client/mucp
+github.com/micro/micro/v3/service/config
+github.com/micro/micro/v3/service/config/client
+github.com/micro/micro/v3/service/config/store
+github.com/micro/micro/v3/service/context
+github.com/micro/micro/v3/service/context/metadata
+github.com/micro/micro/v3/service/debug
+github.com/micro/micro/v3/service/debug/handler
+github.com/micro/micro/v3/service/debug/log
+github.com/micro/micro/v3/service/debug/log/memory
+github.com/micro/micro/v3/service/debug/profile
+github.com/micro/micro/v3/service/debug/stats
+github.com/micro/micro/v3/service/debug/stats/memory
+github.com/micro/micro/v3/service/debug/trace
+github.com/micro/micro/v3/service/debug/trace/memory
+github.com/micro/micro/v3/service/errors
+github.com/micro/micro/v3/service/events
+github.com/micro/micro/v3/service/events/client
+github.com/micro/micro/v3/service/events/store
+github.com/micro/micro/v3/service/events/stream/memory
+github.com/micro/micro/v3/service/events/util
+github.com/micro/micro/v3/service/logger
+github.com/micro/micro/v3/service/metrics
+github.com/micro/micro/v3/service/metrics/noop
+github.com/micro/micro/v3/service/model
+github.com/micro/micro/v3/service/network
+github.com/micro/micro/v3/service/network/mucp
+github.com/micro/micro/v3/service/network/mucp/proto
+github.com/micro/micro/v3/service/network/resolver
+github.com/micro/micro/v3/service/network/resolver/dns
+github.com/micro/micro/v3/service/network/transport
+github.com/micro/micro/v3/service/network/transport/grpc
+github.com/micro/micro/v3/service/network/transport/http
+github.com/micro/micro/v3/service/network/tunnel
+github.com/micro/micro/v3/service/network/tunnel/broker
+github.com/micro/micro/v3/service/network/tunnel/mucp
+github.com/micro/micro/v3/service/network/tunnel/transport
+github.com/micro/micro/v3/service/proxy
+github.com/micro/micro/v3/service/proxy/mucp
+github.com/micro/micro/v3/service/registry
+github.com/micro/micro/v3/service/registry/client
+github.com/micro/micro/v3/service/registry/memory
+github.com/micro/micro/v3/service/registry/noop
+github.com/micro/micro/v3/service/registry/util
+github.com/micro/micro/v3/service/router
+github.com/micro/micro/v3/service/router/client
+github.com/micro/micro/v3/service/router/kubernetes
+github.com/micro/micro/v3/service/router/registry
+github.com/micro/micro/v3/service/runtime
+github.com/micro/micro/v3/service/runtime/client
+github.com/micro/micro/v3/service/runtime/kubernetes
+github.com/micro/micro/v3/service/runtime/kubernetes/api
+github.com/micro/micro/v3/service/runtime/kubernetes/client
+github.com/micro/micro/v3/service/runtime/local
+github.com/micro/micro/v3/service/runtime/local/process
+github.com/micro/micro/v3/service/runtime/local/process/os
+github.com/micro/micro/v3/service/server
+github.com/micro/micro/v3/service/server/grpc
+github.com/micro/micro/v3/service/server/mucp
+github.com/micro/micro/v3/service/store
+github.com/micro/micro/v3/service/store/client
+github.com/micro/micro/v3/service/store/file
+github.com/micro/micro/v3/service/store/memory
+github.com/micro/micro/v3/util/acme
+github.com/micro/micro/v3/util/addr
+github.com/micro/micro/v3/util/auth
+github.com/micro/micro/v3/util/auth/rules
+github.com/micro/micro/v3/util/auth/token
+github.com/micro/micro/v3/util/auth/token/jwt
+github.com/micro/micro/v3/util/backoff
+github.com/micro/micro/v3/util/buf
+github.com/micro/micro/v3/util/cache
+github.com/micro/micro/v3/util/codec
+github.com/micro/micro/v3/util/codec/bytes
+github.com/micro/micro/v3/util/codec/grpc
+github.com/micro/micro/v3/util/codec/json
+github.com/micro/micro/v3/util/codec/jsonrpc
+github.com/micro/micro/v3/util/codec/proto
+github.com/micro/micro/v3/util/codec/protorpc
+github.com/micro/micro/v3/util/config
+github.com/micro/micro/v3/util/helper
+github.com/micro/micro/v3/util/namespace
+github.com/micro/micro/v3/util/net
+github.com/micro/micro/v3/util/opentelemetry
+github.com/micro/micro/v3/util/opentelemetry/jaeger
+github.com/micro/micro/v3/util/pool
+github.com/micro/micro/v3/util/qson
+github.com/micro/micro/v3/util/report
+github.com/micro/micro/v3/util/ring
+github.com/micro/micro/v3/util/selector
+github.com/micro/micro/v3/util/selector/roundrobin
+github.com/micro/micro/v3/util/socket
+github.com/micro/micro/v3/util/tls
+github.com/micro/micro/v3/util/user
+github.com/micro/micro/v3/util/wrapper
+# github.com/miekg/dns v1.1.27
+## explicit; go 1.12
+github.com/miekg/dns
+# github.com/nightlyone/lockfile v1.0.0
+## explicit; go 1.11
+github.com/nightlyone/lockfile
+# github.com/opentracing/opentracing-go v1.2.0
+## explicit; go 1.14
+github.com/opentracing/opentracing-go
+github.com/opentracing/opentracing-go/ext
+github.com/opentracing/opentracing-go/log
+# github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c
+## explicit; go 1.12
+github.com/oxtoacart/bpool
+# github.com/patrickmn/go-cache v2.1.0+incompatible
+## explicit
+github.com/patrickmn/go-cache
+# github.com/pkg/errors v0.9.1
+## explicit
+github.com/pkg/errors
+# github.com/pmezard/go-difflib v1.0.0
+## explicit
+github.com/pmezard/go-difflib/difflib
+# github.com/rs/cors v1.7.0
+## explicit
+github.com/rs/cors
+# github.com/russross/blackfriday/v2 v2.0.1
+## explicit
+github.com/russross/blackfriday/v2
+# github.com/shurcooL/sanitized_anchor_name v1.0.0
+## explicit
+github.com/shurcooL/sanitized_anchor_name
+# github.com/stoewer/go-strcase v1.2.0
+## explicit; go 1.11
+github.com/stoewer/go-strcase
+# github.com/stretchr/objx v0.1.1
+## explicit
+github.com/stretchr/objx
+# github.com/stretchr/testify v1.7.0
+## explicit; go 1.13
+github.com/stretchr/testify/assert
+# github.com/uber/jaeger-client-go v2.29.1+incompatible
+## explicit
+github.com/uber/jaeger-client-go
+github.com/uber/jaeger-client-go/config
+github.com/uber/jaeger-client-go/internal/baggage
+github.com/uber/jaeger-client-go/internal/baggage/remote
+github.com/uber/jaeger-client-go/internal/reporterstats
+github.com/uber/jaeger-client-go/internal/spanlog
+github.com/uber/jaeger-client-go/internal/throttler
+github.com/uber/jaeger-client-go/internal/throttler/remote
+github.com/uber/jaeger-client-go/log
+github.com/uber/jaeger-client-go/rpcmetrics
+github.com/uber/jaeger-client-go/thrift
+github.com/uber/jaeger-client-go/thrift-gen/agent
+github.com/uber/jaeger-client-go/thrift-gen/baggage
+github.com/uber/jaeger-client-go/thrift-gen/jaeger
+github.com/uber/jaeger-client-go/thrift-gen/sampling
+github.com/uber/jaeger-client-go/thrift-gen/zipkincore
+github.com/uber/jaeger-client-go/transport
+github.com/uber/jaeger-client-go/utils
+# github.com/uber/jaeger-lib v2.4.1+incompatible
+## explicit
+github.com/uber/jaeger-lib/metrics
+# github.com/urfave/cli/v2 v2.3.0
+## explicit; go 1.11
+github.com/urfave/cli/v2
+# go.etcd.io/bbolt v1.3.5
+## explicit; go 1.12
+go.etcd.io/bbolt
+# go.uber.org/atomic v1.6.0
+## explicit; go 1.13
+go.uber.org/atomic
+# golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897
+## explicit; go 1.11
+golang.org/x/crypto/ed25519
+golang.org/x/crypto/ed25519/internal/edwards25519
+# golang.org/x/net v0.0.0-20201202161906-c7110b5ffcbb
+## explicit; go 1.11
+golang.org/x/net/bpf
+golang.org/x/net/http/httpguts
+golang.org/x/net/http2
+golang.org/x/net/http2/h2c
+golang.org/x/net/http2/hpack
+golang.org/x/net/idna
+golang.org/x/net/internal/iana
+golang.org/x/net/internal/socket
+golang.org/x/net/internal/timeseries
+golang.org/x/net/ipv4
+golang.org/x/net/ipv6
+golang.org/x/net/netutil
+golang.org/x/net/trace
+# golang.org/x/sys v0.0.0-20210112080510-489259a85091
+## explicit; go 1.12
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.3
+## explicit; go 1.11
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+# google.golang.org/genproto v0.0.0-20200806141610-86f49bd18e98
+## explicit; go 1.11
+google.golang.org/genproto/googleapis/rpc/status
+# google.golang.org/grpc v1.40.0 => google.golang.org/grpc v1.27.1
+## explicit; go 1.11
+google.golang.org/grpc
+google.golang.org/grpc/attributes
+google.golang.org/grpc/backoff
+google.golang.org/grpc/balancer
+google.golang.org/grpc/balancer/base
+google.golang.org/grpc/balancer/roundrobin
+google.golang.org/grpc/binarylog/grpc_binarylog_v1
+google.golang.org/grpc/codes
+google.golang.org/grpc/connectivity
+google.golang.org/grpc/credentials
+google.golang.org/grpc/credentials/internal
+google.golang.org/grpc/encoding
+google.golang.org/grpc/encoding/proto
+google.golang.org/grpc/grpclog
+google.golang.org/grpc/internal
+google.golang.org/grpc/internal/backoff
+google.golang.org/grpc/internal/balancerload
+google.golang.org/grpc/internal/binarylog
+google.golang.org/grpc/internal/buffer
+google.golang.org/grpc/internal/channelz
+google.golang.org/grpc/internal/envconfig
+google.golang.org/grpc/internal/grpcrand
+google.golang.org/grpc/internal/grpcsync
+google.golang.org/grpc/internal/resolver/dns
+google.golang.org/grpc/internal/resolver/passthrough
+google.golang.org/grpc/internal/syscall
+google.golang.org/grpc/internal/transport
+google.golang.org/grpc/keepalive
+google.golang.org/grpc/metadata
+google.golang.org/grpc/naming
+google.golang.org/grpc/peer
+google.golang.org/grpc/resolver
+google.golang.org/grpc/serviceconfig
+google.golang.org/grpc/stats
+google.golang.org/grpc/status
+google.golang.org/grpc/tap
+# google.golang.org/protobuf v1.28.0
+## explicit; go 1.11
+google.golang.org/protobuf/encoding/protojson
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/json
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protodesc
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/timestamppb
+# gopkg.in/fsnotify.v1 v1.4.7
+## explicit
+gopkg.in/fsnotify.v1
+# gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
+## explicit
+gopkg.in/tomb.v1
+# gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+## explicit
+gopkg.in/yaml.v3
+# google.golang.org/grpc => google.golang.org/grpc v1.27.1
