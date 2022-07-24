@@ -1,0 +1,261 @@
+openapi: 3.0.3
+info:
+    title: Pet Store Service
+    description: HTTP service for managing pets
+    version: "1.0"
+servers:
+    - url: http://127.0.0.1:8080
+paths:
+    /pet:
+        put:
+            tags:
+                - pets
+            summary: CreatePet pets
+            operationId: pets#CreatePet
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CreatePetRequestBody'
+                        example:
+                            category:
+                                id: 4299514113566346013
+                                name: Et culpa amet.
+                            id: 605586248665611493
+                            name: Aperiam consequatur alias.
+                            status: Velit sed aliquam reprehenderit eum quas et.
+            responses:
+                "200":
+                    description: OK response.
+                    content:
+                        application/json:
+                            schema:
+                                type: integer
+                                example: 3930756899088346095
+                                format: int64
+                            example: 1150939977601123918
+                "404":
+                    description: Not Found response.
+                    content:
+                        application/json:
+                            schema:
+                                type: integer
+                                example: 6865870883505952949
+                                format: int64
+                            example: 8212601636115445065
+                "500":
+                    description: Internal Server Error response.
+                    content:
+                        application/json:
+                            schema:
+                                type: integer
+                                example: 4147908623932216501
+                                format: int64
+                            example: 6939679418036520943
+    /pet/{id}:
+        get:
+            tags:
+                - pets
+            summary: PetByID pets
+            operationId: pets#PetByID
+            parameters:
+                - name: id
+                  in: path
+                  required: true
+                  schema:
+                    type: integer
+                    example: 4731102454553359483
+                    format: int64
+                  example: 16745761300859924
+            responses:
+                "200":
+                    description: OK response.
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Pet'
+                            example:
+                                category:
+                                    id: 5684513698553590462
+                                    name: Vel neque.
+                                id: 2100637893507981671
+                                name: Veritatis velit laboriosam saepe omnis labore.
+                                status: Earum vel.
+                "404":
+                    description: Not Found response.
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Pet'
+                            example:
+                                category:
+                                    id: 6415217433100873951
+                                    name: Est quis corporis aut exercitationem illo.
+                                id: 9214103646767837307
+                                name: Enim quis non.
+                                status: Perspiciatis ab dignissimos ipsam nulla dolor reiciendis.
+                "500":
+                    description: Internal Server Error response.
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Pet'
+                            example:
+                                category:
+                                    id: 3339450239182959063
+                                    name: Blanditiis ad asperiores quo perspiciatis.
+                                id: 4498416398208016804
+                                name: Occaecati commodi cupiditate aspernatur nesciunt eaque consequatur.
+                                status: Corporis modi porro ea cum voluptatibus deleniti.
+    /pets:
+        get:
+            tags:
+                - pets
+            summary: AllPets pets
+            operationId: pets#AllPets
+            responses:
+                "200":
+                    description: OK response.
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/PetCollection'
+                            example:
+                                - category:
+                                    id: 310081147270019849
+                                    name: Natus qui.
+                                  id: 8453211967570643632
+                                  name: Laudantium quos optio totam.
+                                  status: Modi voluptatibus alias aut est delectus est.
+                                - category:
+                                    id: 310081147270019849
+                                    name: Natus qui.
+                                  id: 8453211967570643632
+                                  name: Laudantium quos optio totam.
+                                  status: Modi voluptatibus alias aut est delectus est.
+                                - category:
+                                    id: 310081147270019849
+                                    name: Natus qui.
+                                  id: 8453211967570643632
+                                  name: Laudantium quos optio totam.
+                                  status: Modi voluptatibus alias aut est delectus est.
+                "500":
+                    description: Internal Server Error response.
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/PetCollection'
+                            example:
+                                - category:
+                                    id: 310081147270019849
+                                    name: Natus qui.
+                                  id: 8453211967570643632
+                                  name: Laudantium quos optio totam.
+                                  status: Modi voluptatibus alias aut est delectus est.
+                                - category:
+                                    id: 310081147270019849
+                                    name: Natus qui.
+                                  id: 8453211967570643632
+                                  name: Laudantium quos optio totam.
+                                  status: Modi voluptatibus alias aut est delectus est.
+                                - category:
+                                    id: 310081147270019849
+                                    name: Natus qui.
+                                  id: 8453211967570643632
+                                  name: Laudantium quos optio totam.
+                                  status: Modi voluptatibus alias aut est delectus est.
+components:
+    schemas:
+        CreatePetRequestBody:
+            type: object
+            properties:
+                category:
+                    type: object
+                    properties:
+                        id:
+                            type: integer
+                            example: 3100873697273342835
+                            format: int64
+                        name:
+                            type: string
+                            example: Impedit voluptates fuga.
+                    example:
+                        id: 9016500847853547979
+                        name: Inventore nostrum tenetur impedit voluptatem.
+                id:
+                    type: integer
+                    example: 1627387926403895140
+                    format: int64
+                name:
+                    type: string
+                    example: Est iure saepe pariatur.
+                status:
+                    type: string
+                    example: Sit aspernatur.
+            example:
+                category:
+                    id: 2736703400115986204
+                    name: In est nemo nisi labore.
+                id: 5337416950420801850
+                name: Molestiae aperiam.
+                status: Voluptatum et.
+        Pet:
+            type: object
+            properties:
+                category:
+                    type: object
+                    properties:
+                        id:
+                            type: integer
+                            example: 4424481033931509370
+                            format: int64
+                        name:
+                            type: string
+                            example: Omnis dolores quo aut optio qui.
+                    example:
+                        id: 4579583734781728960
+                        name: Dignissimos beatae doloribus est voluptatibus.
+                id:
+                    type: integer
+                    example: 7601599663805719182
+                    format: int64
+                name:
+                    type: string
+                    example: Voluptate id natus amet quo minima.
+                status:
+                    type: string
+                    example: Dicta voluptatem nulla.
+            example:
+                category:
+                    id: 4809007330988017258
+                    name: Tempora itaque alias qui et est voluptatem.
+                id: 4172743107109010237
+                name: Blanditiis qui.
+                status: Dolores assumenda esse magnam quia quasi.
+        PetCollection:
+            type: array
+            items:
+                $ref: '#/components/schemas/Pet'
+            example:
+                - category:
+                    id: 310081147270019849
+                    name: Natus qui.
+                  id: 8453211967570643632
+                  name: Laudantium quos optio totam.
+                  status: Modi voluptatibus alias aut est delectus est.
+                - category:
+                    id: 310081147270019849
+                    name: Natus qui.
+                  id: 8453211967570643632
+                  name: Laudantium quos optio totam.
+                  status: Modi voluptatibus alias aut est delectus est.
+                - category:
+                    id: 310081147270019849
+                    name: Natus qui.
+                  id: 8453211967570643632
+                  name: Laudantium quos optio totam.
+                  status: Modi voluptatibus alias aut est delectus est.
+tags:
+    - name: pets
+      description: The pet management service
