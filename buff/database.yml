@@ -1,0 +1,12 @@
+---
+development:
+  dialect: "sqlite3"
+  database: buff_buff_development.sqlite
+
+test:
+  dialect: "sqlite3"
+  database: buff_buff_test.sqlite
+
+production:
+  dialect: "sqlite3"
+  database: buff_buff_production.sqlite

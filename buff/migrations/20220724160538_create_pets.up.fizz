@@ -1,0 +1,4 @@
+create_table("pets") {
+	t.Column("id", "uuid", {primary: true})
+	t.Timestamps()
+}
